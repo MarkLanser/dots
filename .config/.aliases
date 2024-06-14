@@ -1,0 +1,15 @@
+# LS aliases
+alias ls='ls --color=auto'
+alias ll='ls -la'
+
+# Dirs
+alias dots='cd $HOME/dots'
+alias dev='cd $HOME/development'
+
+# Git aliases
+source $XDG_CONFIG_HOME/.git_aliases
+
+# SSH aliases
+if [ -r $XDG_CONFIG_HOME/.ssh_aliases ]; then
+	source $XDG_CONFIG_HOME/.ssh_aliases
+fi

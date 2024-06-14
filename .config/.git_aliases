@@ -1,0 +1,31 @@
+# Git aliases
+
+## Committing
+alias gst='git status'
+alias gaa='git add .'
+alias gcam='git commit -a -m'
+
+## Checkout
+alias gcb='git checkout -b'
+alias gcd='git checkout develop'
+alias gcm='git checkout master'
+
+## Fetch
+alias gf='git fetch'
+alias gfa='git fetch --all --prune'
+alias gfo='git fetch origin'
+
+## Push and pull
+alias gl='git pull'
+alias gp='git push'
+alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
+
+## Stash
+alias gsta='git stash save'
+alias gstaa='git stash apply'
+alias gstc='git stash clear'
+alias gstd='git stash drop'
+alias gstl='git stash list'
+alias gstp='git stash pop'
+alias gsts='git stash show --text'
+
