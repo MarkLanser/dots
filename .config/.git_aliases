@@ -18,7 +18,7 @@ alias gfo='git fetch origin'
 ## Push and pull
 alias gl='git pull'
 alias gp='git push'
-alias ggsup='git branch --set-upstream-to=origin/$(git_current_branch)'
+alias gpsup='git branch --set-upstream-to=origin/$(git_current_branch)'
 
 ## Stash
 alias gsta='git stash save'
