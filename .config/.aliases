@@ -3,6 +3,10 @@ alias ls='ls --color=auto'
 alias ll='ls -la'
 
 # Dirs
+alias home='cd $HOME'
+alias dl='cd $HOME/Downloads'
+alias docs='cd $HOME/Documents'
+alias dropbox='cd $HOME/Dropbox'
 alias dots='cd $HOME/dots'
 alias dev='cd $HOME/development'
 
